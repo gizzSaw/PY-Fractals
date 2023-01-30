@@ -1,7 +1,7 @@
 import turtle
-turtle.pensize(2)
-turtle.speed(200),
-for i in range(0, 1800, 1):
+turtle.pensize(1)
+turtle.speed(0)
+for i in range(0, 1800, 3):
     turtle.forward(i)
-    turtle.right(121)
+    turtle.right(271)
 turtle.Screen().exitonclick()

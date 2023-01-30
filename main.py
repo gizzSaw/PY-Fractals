@@ -1,4 +1,4 @@
-gens = 10
+gens = 20
 axiom = 'A'
 chr_1, rule_1 = 'A', 'AB'
 chr_2, rule_2 = 'B', 'A'
@@ -16,5 +16,5 @@ def apply_rules(axiom):
 
 for gen in range(gens):
     input()
-    print(f'generation {gen}: {axiom}')
+    print(f'generation {gen}: {len(axiom)}')
     axiom = apply_rules(axiom)
